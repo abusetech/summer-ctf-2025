@@ -1,6 +1,5 @@
 # Badcookie
-
-## This one is spoiled!
+### This one is spoiled!
 
 This app uses [JSON Web Tokens (JWTs)](https://en.wikipedia.org/wiki/JSON_Web_Token) to authenticate the user. 
 
