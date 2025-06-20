@@ -1,0 +1,13 @@
+version: "3.8"
+
+services:
+  day2-death-by-proxy:
+    build: proxy/.
+    ports:
+      - 5000:5000
+    environment:
+      - FLASK_ENV=development
+  day2-backend:
+    build: backend/.
+    environment:
+      - FLASK_ENV=development

@@ -1,0 +1,9 @@
+version: "3.8"
+
+services:
+  day3-a-link-to-the-interpreter:
+    build: .
+    ports:
+      - 5000:5000
+    environment:
+      - FLASK_ENV=development

@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <title>A link to the interpreter</title>
+    </head>
+    <body>
+        <h1>Welcome to day 3!</h1>
+        <p>You can set the URL of the following link using the form below. See if you can get the link to execute some javascript!</p>
+        <div style="width: 100%;"><a href="{{ link_url }}" style="margin:auto;">Click Here!</a></div>
+        <br>
+        <div>
+            <form action="/setlink" method="POST">
+                <label for="url">URL</label>
+                <input type="text" id="url" name="url">
+                <input type="submit" value="Update">
+            </form>
+        </div>
+    </body>
+</html>

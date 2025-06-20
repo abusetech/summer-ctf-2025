@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Death by Proxy</title>
+    </head>
+    <body>
+        <h1>Welcome to day 2!</h1>
+        <p>You can use the form below to request a "fact" about an animal. Try any of the following:</p>
+        <ul>
+            {% for animal in animals %}
+            <li>{{ animal }}</li>
+            {% endfor %}
+        </ul>
+        <p>There's also a super-secret API hidden on the backend container, but there's no way to get to it... or is there?</p>
+        <div>
+            <form action="/getanimal" method="GET">
+                <label for="animal">Animal</label>
+                <input type="text" id="animal" name="animal">
+                <input type="submit" value="Search">
+            </form>
+        </div>
+    </body>
+</html>
