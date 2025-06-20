@@ -7,7 +7,7 @@ Three small challenges: two "flags" to capture, one XSS bug to exploit and compl
 3) Demonstrate an exploit
 4) Explain how to prevent, mitigate and/or fix the bug
 
-All three of these challenges are based on real bugs I've encountered in the wild, though the code has been simplified for the purposes of this challenge. See the README files in each challenge directory for information on each challenge.
+All three of these challenges are based on real bugs I've encountered in the wild, though the code has been simplified for the purposes of this challenge. See the README file in each challenge directory for more information on each individual challenge.
 
 ## Challenge Overview
 
